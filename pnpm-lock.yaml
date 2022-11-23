@@ -6,7 +6,7 @@ specifiers:
   '@markdoc/markdoc': ^0.2.1
   '@next/bundle-analyzer': ^13.0.4
   '@our-patches/postcss-px-to-viewport': ^1.2.0
-  '@react-three/drei': ^9.43.1
+  '@react-three/drei': ^9.43.2
   '@react-three/fiber': ^8.9.1
   '@types/node': 18.11.9
   '@types/react': 18.0.25
@@ -47,7 +47,7 @@ specifiers:
   typescript: 4.9.3
 
 dependencies:
-  '@react-three/drei': 9.43.1_xwynmv5llzsuuouxruzymqw67e
+  '@react-three/drei': 9.43.2_xwynmv5llzsuuouxruzymqw67e
   '@react-three/fiber': 8.9.1_mjlgqb43i6mvslmnwgzrdumoh4
   clsx: 1.2.1
   framer-motion: 7.6.9_biqbaboplfbrettd7655fr4n2y
@@ -652,8 +652,8 @@ packages:
     resolution: {integrity: sha512-7I/qY8H7Enwasxr4jU6WmtNK+RZ4Z/XvSlDvjXFVe7ii1x0MoSlkw6pD7xuac8qrHQRm9BTcbZNyeeKApYsvCg==}
     dev: false
 
-  /@react-three/drei/9.43.1_xwynmv5llzsuuouxruzymqw67e:
-    resolution: {integrity: sha512-zd/M74O6NCvQhaPgvaSKL68Mo10Kd0ZzSzP9nnMf4lmg0c17BR6GEMeAPYx8WiEXmKh217Jbxr62wahm8RlPCg==}
+  /@react-three/drei/9.43.2_xwynmv5llzsuuouxruzymqw67e:
+    resolution: {integrity: sha512-zVEbnlSWYxuvyD2rpSAGkoDvYOxON/wsPPc96APYOCC+m+u1w5HEFfF/5ivTroL9XQBIClWTO6RxxBI9ucmd+w==}
     peerDependencies:
       '@react-three/fiber': '>=8.0'
       react: '>=18.0'

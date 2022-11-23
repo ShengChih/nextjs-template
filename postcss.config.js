@@ -49,7 +49,7 @@ module.exports = {
         minPixelValue: 1, // 默認值1，小於或等於4px則不進行轉換
         mediaQuery: true, // 是否在媒體查詢的css代碼中也進行轉換，默認false
         replace: true, // 是否轉換後直接更換屬性值
-        include: [/styles\/fullpage\/pc(\.module)?\.scss/], // 只包含允許的文件
+        include: [/\/fullpage\/pc(\.module)?\.scss/], // 只包含允許的文件
         landscape: false, // 是否處理橫屏情況
       }
     ],
@@ -83,16 +83,19 @@ module.exports = {
         },
       },
     ],
-    [
-      "@fullhuman/postcss-purgecss",
-      {
-        content: [
-          "./pages/**/*.{js,jsx,ts,tsx}",
-          "./components/**/*.{js,jsx,ts,tsx}",
-        ],
-        defaultExtractor: (content) => content.match(/[\w-/:]+(?<!:)/g) || [],
-        safelist: ["html", "body"],
-      },
-    ],
+    //[
+    //  "@fullhuman/postcss-purgecss",
+    //  {
+    //    content: [
+    //      "./pages/**/*.{js,jsx,ts,tsx}",
+    //      "./components/**/*.{js,jsx,ts,tsx}",
+    //    ],
+    //    defaultExtractor: (content) => {
+    //      console.log(content.match(/[\w-/:]+(?<!:)/g) || [])
+    //      return content.match(/[\w-/:]+(?<!:)/g) || []
+    //    },
+    //    safelist: ["html", "body"],
+    //  },
+    //],
   ]
 }

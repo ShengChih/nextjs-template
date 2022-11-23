@@ -10,7 +10,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "tailwind": "tailwindcss -i styles/globals.css -o styles/dist.css",
+    "tailwind": "tailwindcss -i styles/globals.css -o styles/output.css",
     "format": "prettier --write \"**/*.{js,ts,tsx,md}\"",
     "postinstall": "npm run tailwind"
   },
@@ -21,7 +21,7 @@
     "singleQuote": true
   },
   "dependencies": {
-    "@react-three/drei": "^9.43.1",
+    "@react-three/drei": "^9.43.2",
     "@react-three/fiber": "^8.9.1",
     "clsx": "^1.2.1",
     "framer-motion": "^7.6.9",
