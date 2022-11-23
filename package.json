@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "analyze": "ANALYZE=true next build",
+    "dev:turbo": "next dev --turbo",
     "dev": "next dev",
     "dev:tailwind": "concurrently \"next dev \" \"pnpm run tailwind -- --watch\"",
     "debug": "NODE_OPTIONS='--inspect' next dev",
