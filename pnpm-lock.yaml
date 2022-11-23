@@ -34,7 +34,6 @@ specifiers:
   postcss-flexbugs-fixes: ^5.0.2
   postcss-mixins: ^9.0.4
   postcss-preset-env: ^7.8.3
-  postcss-px-to-viewport-8-plugin: ^1.1.5
   prettier: ^2.7.1
   prettier-plugin-tailwindcss: ^0.1.13
   react: 18.2.0
@@ -89,7 +88,6 @@ devDependencies:
   postcss-flexbugs-fixes: 5.0.2_postcss@8.4.19
   postcss-mixins: 9.0.4_postcss@8.4.19
   postcss-preset-env: 7.8.3_postcss@8.4.19
-  postcss-px-to-viewport-8-plugin: 1.1.5
   prettier: 2.7.1
   prettier-plugin-tailwindcss: 0.1.13_prettier@2.7.1
   sass: 1.56.1
@@ -3207,12 +3205,6 @@ packages:
     dependencies:
       postcss: 8.4.19
       postcss-selector-parser: 6.0.11
-    dev: true
-
-  /postcss-px-to-viewport-8-plugin/1.1.5:
-    resolution: {integrity: sha512-qM6x2NyGbRj8R15o/LCbw5hacU+XK1s80zTvWgLjHsOP8B9P1KbDZbNS11BG6/WPut8LR8DvEU5iKw8JnQn9MQ==}
-    dependencies:
-      object-assign: 4.1.1
     dev: true
 
   /postcss-replace-overflow-wrap/4.0.0_postcss@8.4.19:
